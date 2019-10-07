@@ -10,7 +10,8 @@
 mod tests {
     #[test]
     fn you_can_assert() {
-        assert!();
+        let a = 1;
+        assert!(a == 1);
     }
 }
 
